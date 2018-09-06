@@ -1,0 +1,5 @@
+[run]
+include = greg/*
+omit = *migrations*, *tests*
+plugins =
+    django_coverage_plugin
